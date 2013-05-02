@@ -1,0 +1,30 @@
+/* Core */
+
+body {
+	font-size: 10pt;
+}
+
+h1 {
+	font-size: 12pt;
+}
+
+h2 {
+	font-size: 11pt;
+}
+
+h3 {
+	font-size: 10pt;
+}
+
+
+
+/* Biblio */
+
+.biblio-separator-bar {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: inherit;
+    border: none;
+    padding: 0em;
+    margin: 1em 0px;
+}
