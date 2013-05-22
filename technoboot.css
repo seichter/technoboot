@@ -10,10 +10,58 @@ h1 {
 
 h2 {
 	font-size: 11pt;
+	line-height: 1.3em;
 }
 
 h3 {
 	font-size: 10pt;
+	
+}
+
+
+.submitted {
+	display: block;
+	margin-bottom: 0;
+	padding-bottom: .35em;
+	clear: both;
+}
+
+
+/* Fields */
+
+.node-project-page,
+.node-biblio 
+{
+	margin: 20px 20px 0 0;
+	overflow: auto
+}
+
+.submitted {
+	display: none;
+}
+
+footer {
+	margin-left: 150px;	
+}
+
+.field-name-body, 
+.field-name-field-project-gallery, 
+.biblio-authors
+{
+	margin-left: 150px;
+}
+
+
+
+.field-name-field-logo-image,
+.field-name-field-logo-project,
+.field-name-field-image {
+	float: left;
+}
+
+.field-name-field-logo-project img,
+.field-name-field-image img {
+	display: block;
 }
 
 
