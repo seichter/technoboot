@@ -18,6 +18,9 @@ h3 {
 	
 }
 
+.links {
+	font-size: 10pt;
+}
 
 .submitted {
 	display: block;
@@ -26,6 +29,9 @@ h3 {
 	clear: both;
 }
 
+.row-fluid {
+	margin-top: 50px;
+}
 
 /* Fields */
 
@@ -36,22 +42,37 @@ h3 {
 	overflow: auto
 }
 
-.submitted {
+article .submitted {
+	font-size: 10pt;
+	margin-bottom: 1em;
+}
+
+article.node-teaser .submitted {
 	display: none;
 }
 
-footer {
-	margin-left: 150px;	
-}
 
+#block-views-bb-block-block {
+	padding-bottom: 1em;
+}
 .field-name-body, 
 .field-name-field-project-gallery, 
-.biblio-authors
+article.node header,
+article.node footer,
+#block-views-bb-block-block
 {
 	margin-left: 150px;
 }
 
+article.node-biblio header,
+article.node-biblio footer
+{
+	margin-left: 0;
+}
 
+article.node-biblio .field-name-field-image {
+	float: right;
+}
 
 .field-name-field-logo-image,
 .field-name-field-logo-project,
@@ -65,14 +86,19 @@ footer {
 }
 
 
+.breadcrumb {
+	font-size: 8pt;
+}
+
 
 /* Biblio */
 
 .biblio-separator-bar {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    background-color: inherit;
-    border: none;
-    padding: 0em;
-    margin: 1em 0px;
+	display: none;
+}
+
+/* Toolbar */
+
+#toolbar {
+	z-index: 10000;
 }
