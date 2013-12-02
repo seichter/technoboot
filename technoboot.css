@@ -18,12 +18,20 @@ h3 {
 	
 }
 
+
 .links {
 	font-size: 10pt;
 }
 
+.node ul.links {
+	margin-bottom: 15px;
+	margin-top: 10px;
+/*	margin-left: 150px;*/
+}
+
 .submitted {
-	display: block;
+	font-size: 10pt;
+	display: none;
 	margin-bottom: 0;
 	padding-bottom: .35em;
 	clear: both;
@@ -51,33 +59,32 @@ article.node-teaser .submitted {
 	display: none;
 }
 
+article.node {
+	margin-bottom: 20px;
+}
+
 
 #block-views-bb-block-block {
 	padding-bottom: 1em;
 }
-.field-name-body, 
-.field-name-field-project-gallery, 
-article.node header,
-article.node footer,
-#block-views-bb-block-block
+
+
+/*div.pane-content .field-name-body
 {
-	margin-left: 150px;
+	margin-left: 0;
 }
 
 article.node-biblio header,
 article.node-biblio footer
 {
 	margin-left: 0;
-}
+}*/
 
-article.node-biblio .field-name-field-image {
-	float: right;
-}
-
+article.node-biblio .field-name-field-image,
 .field-name-field-logo-image,
 .field-name-field-logo-project,
 .field-name-field-image {
-	float: left;
+	float: right;
 }
 
 .field-name-field-logo-project img,
@@ -93,12 +100,17 @@ article.node-biblio .field-name-field-image {
 
 /* Biblio */
 
+.biblio-export, 
 .biblio-separator-bar {
 	display: none;
 }
 
-/* Toolbar */
+/* Toolbar vs. Admin Menu */
+/*body.admin-menu .navbar-fixed-top {
+	top: 30px;
+}
 
 #toolbar {
-	z-index: 10000;
+	z-index: 1099;
 }
+*/
