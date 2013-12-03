@@ -1,7 +1,6 @@
 /* Core */
 
 body {
-	font-size: 10pt;
 }
 
 h1 {
@@ -24,9 +23,7 @@ h3 {
 }
 
 .node ul.links {
-	margin-bottom: 15px;
-	margin-top: 10px;
-/*	margin-left: 150px;*/
+	margin-top: 5px;
 }
 
 .submitted {
